@@ -33,6 +33,7 @@ header .navbar .logo {
     margin-left: 35px;
     margin-bottom: 20px;
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .profile {
@@ -148,6 +149,7 @@ main{
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid #fff;
+    cursor: pointer;
 }
 
 .username {
@@ -156,7 +158,8 @@ main{
     text-align: center;
     font-size: 12px;
     margin-top: 5px;
-    color: rgba(0, 0, 0, .5)
+    color: rgba(0, 0, 0, .5);
+    cursor: pointer;
 }
 
 .post {
@@ -175,6 +178,10 @@ main{
     align-items: center;
     padding: 20px;
     border-bottom: 1px solid #dbdbdb;
+}
+
+.post-content svg{
+    cursor: pointer;
 }
 
 .likes {
@@ -196,6 +203,7 @@ main{
 .view-time {
     color: rgba(0, 0, 0, .5);
     font-size: 12px;
+    cursor: pointer;
 }
 
 .view-time {
@@ -212,7 +220,7 @@ main{
 
 .post-content svg,
 .comment-wrapper svg {
-    height: 40px;
+    height: 30px;
     cursor: pointer;
 }
 
@@ -265,6 +273,7 @@ align-items: center;
     text-transform: capitalize;
     font-size: 16px;
     color: rgba(0, 162, 255, .5);
+    cursor: pointer;
 }
 
 .reactions {
@@ -280,6 +289,7 @@ align-items: center;
     margin: 0;
     margin-right: 20px;
     color: black;
+    cursor: pointer;
 }
 
 .reactions .save{
