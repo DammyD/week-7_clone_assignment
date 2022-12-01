@@ -192,9 +192,15 @@ main{
     margin-right: 5px;
 }
 
-.post-time {
+.post-time,
+.view-time {
     color: rgba(0, 0, 0, .5);
     font-size: 12px;
+}
+
+.view-time {
+    margin: 8px 0;
+    font-size: 14px;
 }
 .post-content .username{
     width: auto;
@@ -343,6 +349,7 @@ align-items: center;
 
 .links li a{
     color: #dbdbdb;
+    font-size: 14px;
 }
 
 .links  a {
@@ -354,8 +361,10 @@ align-items: center;
 }
 
 .copyright{
+    margin-top: 5px;
     text-transform: uppercase;
     color: #dbdbdb;
+    font-size: 14px;
 }
 
 
