@@ -377,4 +377,41 @@ align-items: center;
     font-size: 14px;
 }
 
+/* Media query for mobile screens */
+@media (max-width: 767px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+      position: static;
+    }
+  
+    header .navbar {
+      position: relative; 
+      width: 100%;
+      border-right: none;
+      background-color: white; 
+    }
+  
+    main {
+      margin-top: 0;
+      padding: 20px;
+    }
+  
+    .container {
+      width: 100%;
+      max-width: none;
+      grid-template-columns: 100%; 
+      gap: 20px;
+    }
+  
+    .left-col {
+      width: 100%;
+    }
+  
+    .right-col {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
 
